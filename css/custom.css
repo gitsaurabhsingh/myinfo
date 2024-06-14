@@ -133,6 +133,10 @@ header
   height: 660px;
 }
 
+.title {
+  display: block !important;
+}
+
 /*@media (min-width: 300px) and (max-width:480px){
     .caption {
        padding-bottom: 0px;
