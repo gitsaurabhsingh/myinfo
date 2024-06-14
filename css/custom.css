@@ -137,6 +137,10 @@ header
   display: block !important;
 }
 
+.title h2 {
+  font-size: 30px;
+}
+
 /*@media (min-width: 300px) and (max-width:480px){
     .caption {
        padding-bottom: 0px;
