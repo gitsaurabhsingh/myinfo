@@ -109,11 +109,11 @@ header
 #spacer1 {
   font-size: 35px;
   padding-top: 35px;
-  display: block;
+  display: block !important;
 }
 #spacer2 {
   font-size: 35px;
-  display: block;
+  display: block !important;
 }
 /*-------------------------------------------------------------------------------------------
  Carousel base class 
