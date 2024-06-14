@@ -35,9 +35,9 @@ function updateTimer() {
   const m = mins - hours * 60;
   const s = secs - mins * 60;
 
-  document.getElementById("days").innerHTML = d;
-  document.getElementById("hours").innerHTML = h;
-  document.getElementById("minutes").innerHTML = m;
-  document.getElementById("seconds").innerHTML = s;
+  document.getElementById("days").innerHTML = d + "<br/><h2>Days</h2>";
+  document.getElementById("hours").innerHTML = h + "<br/><h2>Hours</h2>";
+  document.getElementById("minutes").innerHTML = m + "<br/><h2>Minutes</h2>";
+  document.getElementById("seconds").innerHTML = s + "<br/><h2>Seconds</h2>";
 }
 setInterval("updateTimer()", 1000);
